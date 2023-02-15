@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          for((i=1; i<=1000; i++));
+          for((i=1; i<=100000; i++));
           do
           curl 'https://www.radiocity.in/Microsites/save_hitlist' \
           -H 'authority: www.radiocity.in' \
