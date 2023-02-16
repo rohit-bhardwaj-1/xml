@@ -1,5 +1,7 @@
 name: Curl
-on: [push, pull_request]
+on:
+  schedule:
+    - cron: "*/1 * * * *"
 jobs: 
   curlrun:
     runs-on: ubuntu-latest
