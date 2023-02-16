@@ -1,7 +1,7 @@
 name: Curl Cron trigger
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
 jobs: 
   curlrun:
     runs-on: ubuntu-latest
